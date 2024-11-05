@@ -1,8 +1,8 @@
 # Java Phone System
 
 **Java-Phone-System** is a comprehensive Java-based mobile application suite developed as a group project for the "Software Engineering" course in Bar-Ilan University.
-This project simulates a full-featured mobile operating system that includes various applications such as PhoneBook, SMS, Calendar, Media, Phone Calls, Wallet, and Casino.
-The objective was to implement object-oriented principles, design patterns, and an interactive graphical user interface using Java Swing.
+This project simulates a full-featured phone system that includes various applications such as Phone Book, SMS, Calendar, Media, Phone Calls, Wallet, and Casino.
+The objective was to implement object-oriented principles, design patterns, and an interactive graphical user interface (GUI) using Java Swing.
 
 The project received a grade of **98/100**, reflecting its technical complexity, functionality, and adherence to software engineering best practices.
 
@@ -33,7 +33,15 @@ The project received a grade of **98/100**, reflecting its technical complexity,
 ## Application Descriptions
 
 ### PhoneBook
-Manage contacts with the ability to add, update, delete, and search for contacts.
+Manage contacts (name, phone-number) with these features:
+*  Add Contact.
+*  Delete Contact.
+*  Print All Contacts.
+*  Search Contact.
+*  Sort Contacts (by name/phone-number).
+*  Remove Duplicates (same name).
+*  Reverse Order (by name).
+*  Save to file \ Load from file (.txt file).
 
 ### SMS
 Send and receive text messages. The SMS inbox displays all received messages, and users can send new ones to contacts in the PhoneBook.
@@ -42,7 +50,8 @@ Send and receive text messages. The SMS inbox displays all received messages, an
 Create, edit, and delete events. Set reminders and schedule meetings. The calendar provides an overview of all scheduled events.
 
 ### Media Player
-Play audio and video files with options to play, pause, and stop. The Media Player supports popular formats like MP3 and MP4.
+Media is defined as Song or Video, with name and time.
+Simulates youtube. Can accept new media (Add Media) and play it: Play Media by Name / Play all Media.
 
 ### Phone Calls
 Simulate making and receiving phone calls. Users can dial a number or call a contact from the PhoneBook. Call logs are also maintained.
