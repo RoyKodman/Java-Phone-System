@@ -1,6 +1,6 @@
 # Java Phone System
 
-**Java-Phone-System** is a comprehensive Java-based mobile application suite developed as a group project for the "Software Engineering" course in Bar-Ilan University.
+**Java-Phone-System** is a comprehensive Java-based phone application suite developed as a group project for the "Software Engineering" course in Bar-Ilan University.
 This project simulates a full-featured phone system that includes various applications such as Phone Book, SMS, Calendar, Media, Phone Calls, Wallet, and Casino.
 The objective was to implement object-oriented principles, design patterns, and an interactive graphical user interface (GUI) using Java Swing.
 
