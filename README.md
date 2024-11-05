@@ -102,7 +102,7 @@ The games simulate real-life casino odds with randomly generated outcomes.
 ## Team Contributions
 
 This project was developed collaboratively by a team of software engineering students:
-- Roy Kodman (Me)
+- **[@RoyKodman](https://github.com/RoyKodman)** (Me)
 - Daniel Negbi
 - Shimon Ben-Ami
 - Amitay Ziv
