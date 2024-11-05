@@ -8,13 +8,13 @@ The project received a grade of **98/100**, reflecting its technical complexity,
 
 ## Features
 
-- **PhoneBook**: Manage contacts (add, edit, delete, search).
-- **SMS**: Send, receive, and view text messages.
-- **Calendar**: Manage events, schedule meetings, and set reminders.
-- **Media Player**: Play songs and videos in multiple formats.
-- **Phone Calls**: Simulate making and receiving calls.
+- **PhoneBook**: Manage your contacts in a Phone-Book (add, delete, search, sort, save and load).
+- **SMS**: Send messages and view conversations with your contacts.
+- **Calendar**: Manage events, schedule meetings.
+- **Media Player**: Add and play songs and videos (simulation - only prints).
+- **Phone Calls**: Simulate making calls to your contacts, and view call history.
 - **Casino**: Enjoy games like BlackJack and Slots.
-- **Wallet**: Manage virtual currency for use in the Casino.
+- **Wallet**: Manage virtual currency for trasnfers, deposits and use in the Casino.
 - **User Interface**: Java Swing-based GUI for an intuitive user experience.
 
 ## Setup and Usage
@@ -41,26 +41,57 @@ Manage contacts (name, phone-number) with these features:
 *  Sort Contacts (by name/phone-number).
 *  Remove Duplicates (same name).
 *  Reverse Order (by name).
-*  Save to file \ Load from file (.txt file).
+*  Save to file / Load from file (.txt file).
 
 ### SMS
-Send and receive text messages. The SMS inbox displays all received messages, and users can send new ones to contacts in the PhoneBook.
+Send text messages to your contact with these options:
+* Send SMS to your contact.
+* View (print) conversation with contact.
+* View (print) all conversations.
+* Search messages.
+* Delete Conversation.
 
 ### Calendar
-Create, edit, and delete events. Set reminders and schedule meetings. The calendar provides an overview of all scheduled events.
+The calendar provides an overview of all scheduled events. You can:
+* Add an Event or a meetig with your contacts.
+* Delete an event / meeting.
+* View all events on a specific date.
+* view all future meetings with a contact.
+* List all future events.
+
+The app manages time and makes sure meetings don't conflict.  
 
 ### Media Player
-Media is defined as Song or Video, with name and time.
-Simulates youtube. Can accept new media (Add Media) and play it: Play Media by Name / Play all Media.
+Media is defined as Song or Video, with name and time. Simulates youtube.
+The app can accept new media (Add Media) and play it: Play Media by Name / Play all Media.
 
 ### Phone Calls
-Simulate making and receiving phone calls. Users can dial a number or call a contact from the PhoneBook. Call logs are also maintained.
+Simulate making phone calls. Users can: 
+* Call a contact from the PhoneBook.
+* View Call History with a contact.
+* View all call histories.
 
-### Casino
-Play two games—BlackJack and Slots—using virtual currency from the Wallet. The games simulate real-life casino odds with randomly generated outcomes.
+When calling a contact, the app randomly generates respones (Answered/No), and if the phone call have been answered then the app generates a random number of minutes and seconds of the call length.
 
 ### Wallet
-Manage virtual currency used for betting in the Casino. The Wallet keeps track of the user’s balance, and users can add or withdraw virtual money.
+Manage virtual currency used for deposits, transfers and betting in the Casino. The Wallet keeps track of the user’s balance and features:
+* View current balance.
+* Deposit money.
+* Transfer money (To a contact or to the casino balance).
+* View transfers history.
+* Add new credit card.
+* Delete credit card.
+* View credit cards.
+
+### Casino
+Works in full coordination with the wallet, and features:
+* Playing Black-Jack against the dealer.
+* Playing Slot-Machine.
+* Withdraw money to your wallet.
+
+You can place various amount of bets in both games. 
+
+The games simulate real-life casino odds with randomly generated outcomes.
 
 ## Technical Details
 
@@ -71,7 +102,10 @@ Manage virtual currency used for betting in the Casino. The Wallet keeps track o
 ## Team Contributions
 
 This project was developed collaboratively by a team of software engineering students:
-
+- Roy Kodman (Me)
+- Daniel Negbi
+- Shimon Ben-Ami
+- Amitay Ziv
 
 ## License
 
